@@ -15,5 +15,21 @@
   "bugs": {
     "url": "https://github.com/jpedakal/shopping-cart/issues"
   },
-  "homepage": "https://github.com/jpedakal/shopping-cart#readme"
+  "homepage": "https://github.com/jpedakal/shopping-cart#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongodb": "^3.6.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.16",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "rand-token": "^1.0.1",
+    "stripe": "^8.126.0",
+    "validator": "^13.1.17"
+  }
 }

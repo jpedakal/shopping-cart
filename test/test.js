@@ -1,4 +1,4 @@
-const { assert, expect, should } = require('chai');
+const { assert, expect, should, use } = require('chai');
 
 describe('Array', function () {
     describe('#indexOf()', function () {

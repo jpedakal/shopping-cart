@@ -36,8 +36,27 @@ const languages= {software_lan: ['C', 'Java', 'Javascript']}
 
 // expect test cases
 
-describe('#expect to be', function () {
-    it('length of array', function () {
-        expect(foo).to.be.a('string');
-    });
-});
+// describe('#expect to be', function () {
+//     it('length of array', function () {
+//         expect(foo).to.be.a('string');
+//     });
+// });
+
+// describe('expect to equal', () => {
+//     it('should be equal',function(){
+//         expect(foo).to.equal('boo')
+//     })
+// });
+
+// describe('expect to lengthOf', () => {
+//     it('should be equal',function(){
+//         expect(foo).to.have.lengthOf(3)
+//     });
+// });
+
+// describe('expect to lengthOf', () => {
+//     it('property value should be 3',function(){
+//         expect(languages).to.have.property('software_lan').with.lengthOf(3)
+//     });
+// });
+
